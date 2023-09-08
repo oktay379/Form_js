@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+
+
+    <!--CSS Part-->
+    <link rel="stylesheet" href="form.css">
+
+
+</head>
+
+<body>
+    
+    <h2>Oktay Altunkaya</h2>
+    <h3>Form Validator</h3>
+
+    <div class="container my-5 d-flex justify-content-center">
+        <div class="col-5">
+            <div class="card">
+                <form id="form">
+                    <div class="card-header">Kullanici Olustur</div>
+                    <div class="card-body">
+                        <div class="form-group mb-3">
+                            <label for="username">Username</label>
+                            <input type="text" class="form-control" id="username" placeholder="Enter Username">
+                            <div></div>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter E-mail">
+                            <div></div>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="phone">Phone Number</label>
+                            <input type="number" class="form-control" id="phone" placeholder="Enter Phone Number">
+                            <div></div>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter Password">
+                            <div></div>
+                        </div>
+                        <div class="form-group mb-1">
+                            <label for="repassword">Re-Password</label>
+                            <input type="password" class="form-control" id="repassword" placeholder="Enter Password Again">
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary form-control">Register</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+
+
+<script src="duzenlenmis_form.js"></script>
+
+
+
+
+<script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    crossorigin="anonymous">
+</script>
+
+
+
+
+</html>
